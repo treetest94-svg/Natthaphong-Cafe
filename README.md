@@ -67,11 +67,13 @@ References: [Vercel configuration](https://vercel.com/docs/project-configuration
 
 ## Submission
 
-Submit these two real links after publishing:
+Submit these two links:
 
 - The **public GitHub repository URL**.
 - The **public Vercel production URL**.
 
 Public repository: https://github.com/treetest94-svg/Natthaphong-Cafe
 
-The Vercel production URL will be added after deployment is verified.
+Production website: https://natthaphong-cafe-assignment.vercel.app/
+
+Verified with a request without Vercel credentials: HTTP 200, with the café page and chocolate brownie visible. The live browser preview also loaded all images and five menu items. Open the production URL on your phone for the assignment's phone check.
