@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 680" role="img" aria-labelledby="title desc">
+  <title id="title">A latte for a slow morning</title>
+  <desc id="desc">Original vector artwork of a ceramic coffee cup, latte art and coffee beans on a warm tabletop.</desc>
+  <defs>
+    <radialGradient id="cup"><stop stop-color="#fffdf7"/><stop offset=".82" stop-color="#eee2d0"/><stop offset="1" stop-color="#c6ad93"/></radialGradient>
+    <radialGradient id="coffee"><stop stop-color="#d89a59"/><stop offset=".66" stop-color="#b87539"/><stop offset=".93" stop-color="#814627"/><stop offset="1" stop-color="#d4ac78"/></radialGradient>
+    <linearGradient id="cloth" x2="1" y2="1"><stop stop-color="#fdf7ed"/><stop offset="1" stop-color="#e7d8c5"/></linearGradient>
+    <filter id="shadow" x="-40%" y="-40%" width="180%" height="180%"><feDropShadow dx="12" dy="25" stdDeviation="20" flood-color="#4f2c17" flood-opacity=".2"/></filter>
+    <filter id="bean-shadow"><feDropShadow dx="2" dy="5" stdDeviation="3" flood-opacity=".2"/></filter>
+  </defs>
+  <path d="M0 500 640 292V680H0Z" fill="#a7785030"/>
+  <path d="m40 150 475-50 76 395-483 66Z" fill="url(#cloth)" opacity=".9"/>
+  <g filter="url(#shadow)">
+    <circle cx="320" cy="327" r="200" fill="url(#cup)"/>
+    <circle cx="320" cy="327" r="181" fill="none" stroke="#d8c4ad" stroke-width="2"/>
+    <circle cx="320" cy="327" r="159" fill="#eadbc5"/>
+    <path d="M442 238c91-53 135 39 73 83l-49 24-22-44 41-15c21-15 9-36-9-29l-22 11Z" fill="#f1e6d5" stroke="#c9b499" stroke-width="4"/>
+    <circle cx="310" cy="309" r="149" fill="url(#cup)"/>
+    <circle cx="310" cy="309" r="128" fill="url(#coffee)"/>
+    <circle cx="310" cy="309" r="121" fill="none" stroke="#f0c28b" stroke-width="4" opacity=".75"/>
+    <path d="M310 363c-67-48-90-74-71-108 18-31 59-18 71 12 12-30 53-43 71-12 19 34-4 60-71 108Z" fill="#fff1d9"/>
+    <path d="M310 365c-43-31-65-51-49-72 13-18 38-10 49 9 11-19 36-27 49-9 16 21-6 41-49 72Z" fill="#bc793d"/>
+    <path d="M310 365c-27-19-39-33-30-46 8-12 23-8 30 5 7-13 22-17 30-5 9 13-3 27-30 46Z" fill="#fff1d9"/>
+    <path d="m303 295 6 98 7 13 3-114Z" fill="#fff1d9"/>
+    <path d="M240 219c-28 21-39 50-38 76" fill="none" stroke="#fff9e9" stroke-linecap="round" stroke-width="7" opacity=".55"/>
+  </g>
+  <g filter="url(#bean-shadow)">
+    <g transform="translate(524 531) rotate(31)"><ellipse rx="23" ry="33" fill="#623a25"/><path d="M0-26C-12-4 11 10 0 26" fill="none" stroke="#b77a4e" stroke-width="4" stroke-linecap="round"/></g>
+    <g transform="translate(561 581) rotate(-29)"><ellipse rx="19" ry="27" fill="#78482a"/><path d="M0-20C11-3-9 7 0 21" fill="none" stroke="#c08752" stroke-width="3" stroke-linecap="round"/></g>
+  </g>
+  <path d="M281 99c-15-14 13-23 0-39m35 37c-16-16 11-28 0-46m32 46c-13-13 9-20 0-34" fill="none" stroke="#fffdf3" stroke-width="5" stroke-linecap="round" opacity=".5"/>
+</svg>

@@ -1,0 +1,13 @@
+{
+  "name": "natthaphong-cafe",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A plain HTML and CSS cafe website for a student assignment.",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "start": "node scripts/serve.mjs",
+    "build": "node scripts/build.mjs"
+  },
+  "engines": { "node": ">=22" }
+}

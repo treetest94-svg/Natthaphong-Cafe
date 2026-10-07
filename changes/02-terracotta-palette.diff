@@ -1,0 +1,35 @@
+diff --git a/assets/bean.svg b/assets/bean.svg
+index ad04461..d2f719a 100644
+--- a/assets/bean.svg
++++ b/assets/bean.svg
+@@ -1 +1 @@
+-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="16" fill="#72533e"/><ellipse cx="32" cy="32" rx="14" ry="21" transform="rotate(35 32 32)" fill="#fbf6ee"/><path d="M42 16C20 25 44 39 21 49" fill="none" stroke="#72533e" stroke-width="4" stroke-linecap="round"/></svg>
++<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="16" fill="#a84734"/><ellipse cx="32" cy="32" rx="14" ry="21" transform="rotate(35 32 32)" fill="#fbf6ee"/><path d="M42 16C20 25 44 39 21 49" fill="none" stroke="#a84734" stroke-width="4" stroke-linecap="round"/></svg>
+diff --git a/index.html b/index.html
+index ad7c334..e6302f6 100644
+--- a/index.html
++++ b/index.html
+@@ -4,7 +4,7 @@
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="description" content="Natthaphong Cafe — a cosy cafe concept with coffee, brunch and fresh bakes. Explore the menu, opening hours and contact information.">
+-  <meta name="theme-color" content="#72533e">
++  <meta name="theme-color" content="#a84734">
+   <title>Natthaphong Cafe | Coffee &amp; Good Mornings</title>
+   <link rel="icon" href="assets/bean.svg" type="image/svg+xml">
+   <link rel="stylesheet" href="style.css">
+diff --git a/style.css b/style.css
+index 831d868..ee9b497 100644
+--- a/style.css
++++ b/style.css
+@@ -1,7 +1,7 @@
+ :root {
+-  --accent: #72533e;
+-  --accent-dark: #4e3728;
+-  --accent-soft: #e6d9ca;
++  --accent: #a84734;
++  --accent-dark: #823526;
++  --accent-soft: #f4dfd3;
+   --cream: #fbf6ee;
+   --paper: #fffcf7;
+   --ink: #2d221d;
